@@ -17,6 +17,15 @@ https://cloud.google.com/community/tutorials/cloud-iot-hybrid
 
 ## GitHub References
 ```sh
+$ git push origin main
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 748 bytes | 748.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/SebLKMa/go-gcp-iot.git
+   f6ba333..f239267  main -> main
+
 $ git pull origin main
 From https://github.com/SebLKMa/go-gcp-iot
  * branch            main       -> FETCH_HEAD
