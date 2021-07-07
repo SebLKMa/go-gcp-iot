@@ -132,5 +132,6 @@ gcloud pubsub subscriptions pull --auto-ack \
 ### View Messages from GCP portal
 
 https://console.cloud.google.com/cloudpubsub/subscription/detail/my-subscription?_ga=2.110006341.1132325014.1622011746-461699955.1621761599&project=savvy-girder-314608  
-then click on `MESSAGES` tab  
+From the page's top options `EDIT | VIEW MESSAGES | CREATE SNAPSHOT` click on `VIEW MESSAGES`.  
+
 
