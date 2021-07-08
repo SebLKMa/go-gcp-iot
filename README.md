@@ -137,7 +137,9 @@ From the page's top options `EDIT | VIEW MESSAGES | CREATE SNAPSHOT` click on `V
 ## Vs Azure IoT Hub
 
 For GCP IoT,  
-- Yet to find "direct method" cloud-to-device for guaranteed and durable calls to device. (as oppose to just using MQTT in both directions)  
-- Yet to find mature device management functionality, e.g. deploying new applications, starting and stopping applications, view application logs.  
+- Yet to find "direct method" type of guaranteed and reliable cloud-to-device calls to device. (as oppose to just using MQTT in both directions)  
+- Yet to find mature device management/provisioning functionality, e.g. deploying updated applications, starting and stopping applications, view application logs, use of Docker containers.  
 
-
+At this point still sensing real-world usage limitations and require development for device management/povisioning.  
+See this [post](https://gist.github.com/ajudges/74b1bb96b928befa6986c0f35a5b2d52),  
+seems like only possible to use [REST APIs](https://cloud.google.com/iot/docs/reference/rest).  
