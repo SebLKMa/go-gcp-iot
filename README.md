@@ -134,4 +134,10 @@ gcloud pubsub subscriptions pull --auto-ack \
 https://console.cloud.google.com/cloudpubsub/subscription/detail/my-subscription?_ga=2.110006341.1132325014.1622011746-461699955.1621761599&project=savvy-girder-314608  
 From the page's top options `EDIT | VIEW MESSAGES | CREATE SNAPSHOT` click on `VIEW MESSAGES`.  
 
+## Vs Azure IoT Hub
+
+For GCP IoT,  
+- Yet to find "direct method" cloud-to-device for guaranteed and durable calls to device. (as oppose to just using MQTT in both directions)  
+- Yet to find mature device management functionality, e.g. deploying new applications, starting and stopping applications, view application logs.  
+
 
